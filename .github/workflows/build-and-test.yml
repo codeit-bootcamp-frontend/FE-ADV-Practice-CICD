@@ -10,6 +10,7 @@ permissions:
   actions: write #  to cancel/stop running workflows (styfle/cancel-workflow-action)
   contents: read #  to fetch code (actions/checkout)
 
+  
 jobs:
   main:
     strategy:
